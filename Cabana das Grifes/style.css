@@ -246,7 +246,6 @@ button[type='submit']:hover {
 }
 
 
-
 /* Exceções ou ajustes */
 
 .aba,
@@ -255,4 +254,9 @@ form input,
 form button {
   background-color: transparent;
   color: inherit;
+}
+
+#toggleMode{
+  position: relative;
+  top: -1px;
 }
