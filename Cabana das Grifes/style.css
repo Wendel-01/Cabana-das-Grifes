@@ -19,7 +19,6 @@ body.dark-mode {
   color: #ffffff;
 }
 
-/* Botão de alternância */
 #toggleMode {
   position: relative;
   top: 10px;
