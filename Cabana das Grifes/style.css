@@ -13,13 +13,13 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* 🌚 MODO ESCURO */
+
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-/* Botão de alternância */
+
 #toggleMode {
   position: relative;
   top: 10px;
@@ -238,7 +238,7 @@ button[type='submit']:hover {
     height: 300px;
   }
 }
-/* Forçar herança da cor do body */
+
 * h1, h2, h3, p, a, span, label, .conteudo {
   
   color: inherit;
@@ -248,7 +248,7 @@ body:not(.dark-mode) label {
   color: #000;
 }
 
-/* Exceções ou ajustes */
+
 
 .aba,
 .produto,
