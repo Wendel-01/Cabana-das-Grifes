@@ -13,7 +13,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-/* 🌚 MODO ESCURO */
+
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
@@ -238,15 +238,13 @@ button[type='submit']:hover {
     height: 300px;
   }
 }
-/* Forçar herança da cor do body */
+
 * h1, h2, h3, p, a, span, label, .conteudo {
   
   color: inherit;
   background: inherit;
 }
 
-
-/* Exceções ou ajustes */
 
 .aba,
 .produto,
